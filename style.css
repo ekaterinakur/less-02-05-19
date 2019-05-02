@@ -9,17 +9,14 @@ body {
 
 main {
     display: flex;
-    justify-content: space-between;
-    margin: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
 main article {
     width: 100px;
     height: 200px;
     background: rgb(100, 100, 100);
-    margin-right: 20px;
-}
-
-main article:last-child {
-    margin-right: 0;
+    margin: 10px;
 }
